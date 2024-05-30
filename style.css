@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -35,4 +39,157 @@ a {
 
 .nav .bar {
   color: #fff;
+}
+
+
+/* main */
+
+.container {
+  background-color: rgb(41, 65, 171);
+  padding: 200px 0;
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-position: 45% 5%;
+  background-size: 175%;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  line-height: 175px;
+  margin-bottom: 50px;
+}
+
+.title-left, .title-right {
+  color: #1ed760;
+  font-size: 146px;
+  font-weight: 900;
+}
+
+.title-left {
+  margin-left: 170px;
+}
+
+.title-right {
+  align-self: flex-end;
+  margin-right: 170px;
+}
+
+.sub-title {
+  color: #1ed760;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-btn-box {
+  text-align: center;
+}
+
+.btn-start {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(41, 65, 171);
+  background-color: #1ed760;
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+
+.btn-start:hover {
+  transform: scale(1.05);
+}
+
+
+/* footer */
+.footer {
+  background-color: black;
+  padding: 100px 180px;
+}
+
+.list-box1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.list-box1 .footer-logo {
+  margin-right: 10px;
+}
+
+.list-box1 .footer-logo img {
+  position: relative;
+  top: -12px;
+}
+
+.list-box1 .columns {
+  display: flex;
+}
+
+.column {
+  margin: 0 38px;
+}
+
+.column .list-title {
+  color: #919496;
+  font-weight: 900;
+  margin-bottom: 17px;
+}
+
+.column a {
+  color: #fff;
+  display: block;
+  margin: 15px 0;
+}
+
+.column a:hover {
+  color: #1ed760;
+}
+
+.sns-box {
+  display: flex;
+}
+
+.sns-box .sns-item {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #222322;
+  color: #fff;
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.sns-box .sns-item:hover {
+  color: #1ed760;
+}
+
+.sns-box .sns-item i {
+  position: relative;
+  top: 13px;
+  left: 16px;
+}
+
+.sns-box .sns-item .fa-facebook-f {
+  left: 18px;
+}
+
+.list-box2 .world {
+  text-align: right;
+  color: #919496;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.list-item-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item-box .list-items a {
+  color: #919496;
+  margin-right: 20px;
+}
+
+.list-item-box .copyright {
+  color: #919496;
 }
